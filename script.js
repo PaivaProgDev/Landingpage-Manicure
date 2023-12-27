@@ -1,0 +1,11 @@
+var buttonDark = document.querySelector('.slider')
+buttonDark.addEventListener('click', () => {
+    document.querySelector('.link-email-footer').classList.toggle('dark')
+    document.querySelector('.section-box-sobre').classList.toggle('dark')
+    document.querySelector('.header-box').classList.toggle('dark')
+    document.querySelector('.footer-box').classList.toggle('dark')
+    document.querySelector('.link-insta').classList.toggle('dark')
+    document.querySelector('.link-tel').classList.toggle('dark')
+    document.querySelector('.main-box').classList.toggle('dark')
+    document.body.classList.toggle('dark')
+})
